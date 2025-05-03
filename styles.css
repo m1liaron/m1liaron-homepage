@@ -244,10 +244,26 @@ span.higlight {
     border: 4px #FF6A00 solid;
 }
 
+.timeline__point.udemy {
+    border-color: #8800FF;
+}
+
+.timeline__point.binary {
+    border-color: #3F98FF;
+}
+
+.timeline__point.solo {
+    border-color: #C94749;
+}
+
 .timeline__line {
     width: 30px;
     height: 2px;
     background-color: #000;
+}
+
+.timeline__point__text{
+    text-align: center;
 }
 
 /* Experience and additional info styles */
