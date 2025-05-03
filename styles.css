@@ -44,6 +44,7 @@ ul, li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .resume {
@@ -221,6 +222,11 @@ span.higlight {
     width: 0;
     background-color: #4caf50;
     transition: width 2s ease-in-out;
+  }
+
+  .tool-icon__image {
+    width: 100px;
+    height: 100px;
   }
 
 /* Experience and additional info styles */
