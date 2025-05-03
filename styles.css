@@ -18,6 +18,10 @@ body {
     --text-decoration-color: #ff9a00;
 }
 
+ul, li {
+    list-style: none;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 30px;
@@ -29,6 +33,10 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.gp {
+    gap: 10px;
 }
 
 .fv {
@@ -168,12 +176,9 @@ body {
 }
 
 .intro__icon {
-    height: 1.1428rem;
+    height: 3.1428rem;
     vertical-align: text-bottom;
-}
-
-.intro__icon path {
-    fill: var(--text-decoration-color);
+    color:#1E3DB8;
 }
 
 .intro_text {
