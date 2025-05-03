@@ -6,8 +6,9 @@
     <title>Résumé</title>
     <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="script.js"></script>
 </head>
-
 <body>
     <main>
         <div class="resume">
@@ -83,7 +84,46 @@
                         <div class="container">
                             <div class="resume__block">
                                 <div class="skills">
-                                    <h3 class="skills__header">Skills</h3>
+                                    <h3 class="skills__header">Programming Skills</h3>
+                                    <div class="skill-bar" id="html-bar">
+                                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                                        <div class="progress" id="html-progress"></div>
+                                      </div>
+                                      <div class="skill-bar" id="css-bar">
+                                        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                                        <div class="progress" id="css-progress"></div>
+                                      </div>
+                                      <div class="skill-bar" id="js-bar">
+                                        <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+                                        <div class="progress" id="js-progress"></div>
+                                      </div>
+                                      <div class="skill-bar" id="react-bar">
+                                        <div class="skill-icon"><i class="fab fa-react"></i></div>
+                                        <div class="progress" id="react-progress"></div>
+                                      </div>
+                                      
+                                       <div class="skill-bar" id="nodejs-bar">
+                                        <div class="skill-icon"><i class="fab fa-node"></i></div>
+                                        <div class="progress" id="nodejs-progress"></div>
+                                      </div>
+
+                                    <h3 class="skills__header">Tools</h3>
+                                    <div class="fh">
+                                        <div class="fv">
+                                            <img class="tool-icon__image" src="/assets/icons/git-icon.png"/>
+                                            <h3>Git</h3>
+                                        </div class="fv">
+                                        <div>
+                                            <img class="tool-icon__image" src="/assets/icons/postman.svg"/>
+                                            <h3>Postman</h3>
+                                        </div>
+                                        <div class="fv">
+                                            <img class="tool-icon__image" src="/assets/icons/window-dev-tools.svg"/>
+                                            <h3>Dev Tools</h3>
+                                        </div>
+                                    </div>
+
+                                    <h3 class="skills__header">Soft Skills</h3>
                                     <p class="skills__text">Problem solving, Continuous Learning, Team Collaboration</p>
                                 </div>
                             </div>

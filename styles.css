@@ -11,6 +11,7 @@ body {
     background: linear-gradient(180deg,rgba(42, 123, 155, 1) 20%, rgb(169, 179, 81) 73%);
 
     --primary-text-color: #181820;
+    --primary-icon-color: #fff;
     --secondary-text-color: #5c5c62;
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
@@ -43,6 +44,7 @@ ul, li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .resume {
@@ -198,6 +200,34 @@ span.higlight {
     color: var(--secondary-text-color);
     text-align: justify;
 }
+
+.skill-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .skill-icon {
+    font-size: 30px;
+    padding: 10px;
+    background-color: #333;
+    color: var(--primary-icon-color);
+  }
+  
+  .progress {
+    height: 65px;
+    width: 0;
+    background-color: #4caf50;
+    transition: width 2s ease-in-out;
+  }
+
+  .tool-icon__image {
+    width: 100px;
+    height: 100px;
+  }
 
 /* Experience and additional info styles */
 
