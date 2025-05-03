@@ -15,7 +15,7 @@ body {
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --text-decoration-color: #2A7B9B;
 }
 
 ul, li {
@@ -56,6 +56,7 @@ ul, li {
 
 .resume__block {
     border-bottom: 3px solid var(--border-color);
+    margin-top: 20px;
     padding-bottom: 30px;
     margin-bottom: 15px;
 }
@@ -162,7 +163,7 @@ ul, li {
     margin: 40px;
 }
 
-.intro__title span {
+span.higlight {
     background-color: #1E3DB8;
     color: #fff;
     padding: 4px;
@@ -183,6 +184,7 @@ ul, li {
 
 .intro_text {
     color: var(--secondary-text-color);
+    font-size: 22px;
     text-align: justify;
 }
 
