@@ -460,7 +460,7 @@ span.higlight {
 }
 
 .modal-content {
-  background-color: var(--primary-background);
+  background-color: #fff;
   margin: 5% auto;
   padding: 20px;
   border: 1px solid #888;
