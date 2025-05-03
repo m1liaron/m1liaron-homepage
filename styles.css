@@ -28,6 +28,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .fv {
@@ -37,10 +38,10 @@ body {
 }
 
 .resume {
-    margin: 50px auto;
+    margin: 0 auto;
     border: 1px solid #2A7B9B;
     box-shadow: 1px 1px 7px 7px #2A7B9B;
-    background-color: #fff;
+    background-color: #ffffffb8;
     padding: 30px 0;
     max-width: 900px;
 }
@@ -129,8 +130,8 @@ body {
 
 .contact-info__avatar {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
@@ -140,10 +141,23 @@ body {
 /* Intro and skills styles */
 
 
+.intro__container {
+    flex-wrap: wrap;
+}
 
 .intro {
     display: flex;
     justify-content: start;
+}
+
+.intro__title {
+    margin: 40px;
+}
+
+.intro__title span {
+    background-color: #1E3DB8;
+    color: #fff;
+    padding: 4px;
 }
 
 .intro__icon-wrapper {
