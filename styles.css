@@ -7,6 +7,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    background: #2A7B9B;
+    background: linear-gradient(180deg,rgba(42, 123, 155, 1) 20%, rgb(169, 179, 81) 73%);
 
     --primary-text-color: #181820;
     --secondary-text-color: #5c5c62;
@@ -36,8 +38,9 @@ body {
 
 .resume {
     margin: 50px auto;
-    border: 1px solid #f5f5f5;
-    box-shadow: 1px 1px 7px 7px #f5f5f5;
+    border: 1px solid #2A7B9B;
+    box-shadow: 1px 1px 7px 7px #2A7B9B;
+    background-color: #fff;
     padding: 30px 0;
     max-width: 900px;
 }
