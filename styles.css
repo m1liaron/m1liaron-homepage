@@ -229,6 +229,27 @@ span.higlight {
     height: 100px;
   }
 
+/* Timeline */
+
+.timeline__container {
+    display: flex;
+    align-items: center;
+}
+
+.timeline__point {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #000;
+    border: 4px #FF6A00 solid;
+}
+
+.timeline__line {
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+}
+
 /* Experience and additional info styles */
 
 .experiences {
