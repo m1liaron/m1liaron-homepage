@@ -63,6 +63,10 @@ ul, li {
     padding-left: 10px;
 }
 
+.weakness__item {
+    margin-top: 10px;
+}
+
 .resume {
     margin: 0 auto;
     border: 1px solid #2A7B9B;
