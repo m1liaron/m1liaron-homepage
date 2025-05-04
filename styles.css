@@ -9,6 +9,7 @@ body {
     line-height: 1.5;
     background: #2A7B9B;
     background: linear-gradient(180deg,rgba(42, 123, 155, 1) 20%, rgb(169, 179, 81) 73%);
+    
 
     --primary-text-color: #181820;
     --experience-title-color: #fff;
@@ -52,6 +53,18 @@ ul, li {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.list {
+    padding-left: 10px;
+}
+
+.weakness__item {
+    margin-top: 10px;
 }
 
 .resume {
@@ -411,6 +424,10 @@ span.higlight {
     background: var(--primary-text-color);
     width: 2px;
     height: 40px;
+}
+
+.experiences__company__list__item {
+    list-style: circle;
 }
 
 .circle {
