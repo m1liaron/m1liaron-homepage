@@ -209,6 +209,15 @@ span.higlight {
     height: 3.1428rem;
     vertical-align: text-bottom;
     color: var(--highlight-color);
+    transition: 2s ease-in;
+}
+
+.intro__iconhover {
+    transform: scale(1.2);
+}
+
+.intro__icon path:hover {
+    fill: var(--highlight-color);
 }
 
 .intro_text {
@@ -348,6 +357,10 @@ Projects Section
     margin: 10px;
     transform: scale(1);
     transition: transform 0.3s ease;
+}
+
+.project.favorite {
+    border:2px solid #f6ff00
 }
 
 .project:hover {
@@ -537,6 +550,11 @@ Additional Info Section
 
 .save__ukraine__image {
     width: 40vh;
+}
+
+.fpv {
+    opacity: 0.1;
+    width: 100px;
 }
 
 /* 
