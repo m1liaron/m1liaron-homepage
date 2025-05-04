@@ -31,6 +31,10 @@ ul, li {
     max-width: 900px;
 }
 
+.fw {
+    flex-wrap: wrap;
+}
+
 .fh {
     display: flex;
     flex-direction: row;
@@ -55,7 +59,14 @@ ul, li {
     box-shadow: 1px 1px 7px 7px #2A7B9B;
     background-color: #ffffffb8;
     padding: 30px 0;
-    max-width: 900px;
+    max-width: 1300px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.resume__main__block {
+    width: 100%;
+    height: 100%;
 }
 
 .resume__block {
@@ -63,6 +74,12 @@ ul, li {
     margin-top: 20px;
     padding-bottom: 30px;
     margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1100px) {
+    .resume {
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -235,8 +252,11 @@ span.higlight {
 
 .timeline__container {
     display: flex;
-    align-items: center;
-    overflow: auto;
+    justify-self: flex-start;
+    align-items: baseline;
+    overflow-x: scroll;
+    padding: 40px;
+    max-width: 600px;
 }
 
 .timeline__point {
@@ -269,6 +289,12 @@ span.higlight {
 .timeline__point__text{
     text-align: center;
     margin: 0 10px 0 10px;
+}
+
+@media screen and (max-width: 720px) {
+    .timeline__container {
+        max-width: 300px;
+    }
 }
 
 /* Achievements and Awards */
@@ -318,6 +344,10 @@ span.higlight {
 }
 
 /* Experience and additional info styles */
+
+.main-info {
+    align-items: start;
+}
 
 .experiences {
     flex: 1 1 60%;
