@@ -338,13 +338,11 @@ span.higlight {
 }
 
 .experiences__company-header-name {
-    color: var(--experience-title-color);
+    color: var(--primary-text-color);
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
     margin-bottom: 20px;
-    font-size: 25px;
-    -webkit-text-stroke: 1.5px #1E3DB8;
 }
 
 .experiences__company__point {
@@ -431,6 +429,7 @@ span.higlight {
 
 .additional-info {
     flex: 1 1 40%;
+    align-items: start;
 }
 
 .additional-info__education {
@@ -462,6 +461,7 @@ span.higlight {
 
 .additional-info__languages {
     margin-bottom: 20px;
+    text-align: start;
 }
 
 .additional-info__languages-header {
