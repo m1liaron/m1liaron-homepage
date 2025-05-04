@@ -8,7 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     background: #2A7B9B;
-    background: linear-gradient(180deg,rgba(42, 123, 155, 1) 20%, rgb(169, 179, 81) 73%);
+    background: linear-gradient(180deg,#2a7b9b 20%, #a9b351 73%);
     
 
     --primary-text-color: #181820;
@@ -544,6 +544,10 @@ span.higlight {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.save__ukraine__image {
+    width: 40vh;
 }
 
  /* Modal styles */
