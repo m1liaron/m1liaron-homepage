@@ -11,12 +11,14 @@ body {
     background: linear-gradient(180deg,rgba(42, 123, 155, 1) 20%, rgb(169, 179, 81) 73%);
 
     --primary-text-color: #181820;
+    --experience-title-color: #fff;
     --primary-icon-color: #fff;
     --secondary-text-color: #5c5c62;
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
     --border-color: #133f51;
     --text-decoration-color: #2A7B9B;
+    --higlight-color: #1E3DB8;
 }
 
 ul, li {
@@ -333,16 +335,77 @@ span.higlight {
 }
 
 .experiences__company-header-name {
-    color: var(--primary-text-color);
+    color: var(--experience-title-color);
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
     margin-bottom: 20px;
+    font-size: 25px;
+    -webkit-text-stroke: 1.5px #1E3DB8;
+}
+
+.experiences__company__point {
+    border: 2px solid var(--higlight-color);
+    width: 20px;
+    height: 20px;
+    border-radius:100%;
+}
+
+.experiences__company__point__line {
+    background: var(--primary-text-color);
+    width: 2px;
+    height: 40px;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    position: absolute;
+    left: -28px;
+    top: 5px;
+}
+
+.experiences__company-project__box {
+    border-radius: 10px;
+    padding: 10px 15px;
+    border-width: 4px;
+    background-color: #fff;
+    margin-top: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    width: 100%;
+}
+
+.orange {
+    border: solid orange;
+}
+
+.red {
+    border: solid red;
+}
+
+.blue {
+    border: solid #007bff;
+}
+
+.experiences__company{
+    position: relative;
+        margin-left: 20px;
+        border-left: 3px solid #000;
+        padding-left: 20px;
 }
 
 .experiences__company-project {
-    margin-left: 15px;
-    margin-bottom: 25px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.experiences__company-project__wrapper {
+    display: flex;
+    gap: 10px;
 }
 
 .experiences__company-project-role {
