@@ -426,6 +426,10 @@ span.higlight {
     height: 40px;
 }
 
+.experiences__company__list__item {
+    list-style: circle;
+}
+
 .circle {
     width: 12px;
     height: 12px;
